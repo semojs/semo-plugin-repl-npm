@@ -1,6 +1,6 @@
 {
   "name": "semo-plugin-repl-npm",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
