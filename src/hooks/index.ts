@@ -5,7 +5,7 @@ export = (Utils) => {
     hook_repl_command: new Utils.Hook('semo', () => {
       return {
         npm: {
-          help: 'Get information from wiki websites',
+          help: 'Get package information from npmjs.com ',
           async action(input) {
             if (!input) {
               Utils.warn('keyword is required')
