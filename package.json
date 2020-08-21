@@ -1,6 +1,17 @@
 {
   "name": "semo-plugin-repl-npm",
   "version": "1.0.1",
+  "description": "This is a Semo REPL plugin to give ability to view npm package description in Semo REPL",
+  "keywords": [
+    "semo",
+    "plugin",
+    "repl",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semojs/semo-plugin-repl-doc"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
