@@ -1,6 +1,6 @@
 {
   "name": "semo-plugin-repl-npm",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "This is a Semo REPL plugin to give ability to view npm package description in Semo REPL",
   "keywords": [
     "semo",
