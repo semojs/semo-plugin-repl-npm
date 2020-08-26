@@ -1,3 +1,4 @@
+import { Utils } from '@semo/core'
 import got from 'got'
 import cheerio from 'cheerio'
 
@@ -21,7 +22,10 @@ export const printNpmReadme = async (input) => {
   if (body) {
     let converted = turndownService.turndown(body)
     converted = converted.replace(/\[\]\(\#.*?\)/g, '')
-    console.log(marked(converted))
+    Utils.consoleReader(marked(converted), {
+      identifier: input,
+      plugin: 'semo-plugin-repl-npm'
+    })
   } else {
     console.log('Not found!')
   }
